@@ -21,10 +21,16 @@
 	margin: 0px auto;
 	background: #9757cd;
 	color: floralwhite;
+	border-radius: 5px;
 }
 
 .address{
 	font-size: 80%;
 	margin: 0px;
 	color: #0f0f0f;
+}
+
+.padandmarg{
+	margin: 0px auto;
+	padding: 50px 0px 50px 0px;
 }
