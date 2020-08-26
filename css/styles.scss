@@ -68,6 +68,29 @@ body{
 	}
 }
 
+.modal{
+	.modal-header{
+		background: $background-dark;
+		color: floralwhite;
+		button{
+			color: floralwhite;
+		}
+	}
+	.modal-body{
+		background: $background-pale;
+	}
+	.card-header{
+		background: $background-dark;
+		color: floralwhite;
+		button{
+			color: floralwhite;
+		}
+	}
+	.card-body{
+		background: $background-pale;
+	}	
+}
+
 #carbutton{
 	right: 0px;
 	position: absolute;
