@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>Ristorante Con Fusion</title>
 </head>
@@ -313,47 +314,7 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            $('#mycar').carousel({interval: 2000});
-            $('#carbutton').click(function(){
-                if($('#carbutton').children('span').hasClass('fa-pause')){
-                    $('#mycar').carousel('pause');
-                    $('#carbutton').children('span').removeClass('fa-pause');
-                    $('#carbutton').children('span').addClass('fa-play');
-                }
-                else if($('#carbutton').children('span').hasClass('fa-play')){
-                    $('#mycar').carousel('cycle');
-                    $('#carbutton').children('span').removeClass('fa-play');
-                    $('#carbutton').children('span').addClass('fa-pause');
-                }
-            });
-        });
-    </script>
-    <script>
-        $('#rsvbutton').click(function(){
-            $('#reservemodal').modal('show');
-        });
-        $('#rsvclose').click(function(){
-            $('#reservemodal').modal('hide');
-        });
-
-        $('#logbutton').click(function(){
-            $('#loginmodal').modal('show');
-        });
-
-        $('#logclose').click(function(){
-            $('#loginmodal').modal('hide');
-        });
-
-        $('#rsvcancel').click(function(){
-            $('#reservemodal').modal('hide');
-        });
-
-        $('#logcancel').click(function(){
-            $('#loginmodal').modal('hide');
-        });
-    </script>
+    <script src="js/sripts.js"></script>
 </body>
 
 </html>
